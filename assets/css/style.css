@@ -31,7 +31,9 @@ body {
   font-size: var(--f24); 
 }
 
-  
+  img{
+    max-width: 100%;
+  }
 button {
   cursor: pointer; }
 
@@ -357,6 +359,12 @@ li {
 .manu-overlay.show {
   opacity: .5;
   visibility: visible;
+}
+
+.modal-body > button {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 15px;
 }
 /* Header section END */
 

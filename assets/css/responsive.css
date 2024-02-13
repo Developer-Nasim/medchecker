@@ -38,6 +38,20 @@
     .support__wrp h1 {
         font-size: 42px;
     }
+    .about__blk i {  
+        width: 100%;
+        height: auto;
+    }
+    .product__btns { 
+        gap: 5px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+    .product__name { 
+        padding: 15px;
+    }
+
+
 
 }
 
@@ -112,6 +126,30 @@
     .support__wrp h1 {
         font-size: 42px;
     }
+
+    .about__blk i {  
+        width: 100%;
+        height: auto;
+    }
+
+
+    .product__btns { 
+        gap: 5px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+    .product__name { 
+        padding: 15px;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -207,6 +245,26 @@
     .support__wrp h1 {
         font-size: 32px;
     }
+
+    .about__blk i {  
+        width: 100%;
+        height: auto;
+    }
+
+    .about__blk {
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .product__btns { 
+        gap: 5px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+    .product__name { 
+        padding: 15px;
+    }
+
+
 
 }
 
@@ -395,6 +453,7 @@
         padding: 36px 24px;
         flex-direction: column;
         text-align: center;
+        margin-top: 60px;
     }
 
     .support__wrp a {
@@ -408,6 +467,75 @@
     .support__left p {
         font-size: 15px;
     }
+    .about__blk i {  
+        width: 100%;
+        height: auto;
+    }
+
+    .about__blk {
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .fitems > div{
+        margin: auto;
+    }
+    .aboutHero__text p {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .aboutHero-area {
+        height: 340px; 
+    }
+
+    .product__btns { 
+        gap: 5px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+    .product__name { 
+        padding: 15px;
+    }
+    .productItem__blk,.product__blk {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .product__btns a {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Imput__sub {
+        flex-wrap: wrap;
+    }
+    .subNav ul{
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 2px;
+    } 
+    button.accordion-button {
+        padding: 10px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 16px;
+        padding-right: 12px;
+    }
+    
+    button.accordion-button span {
+        margin-right: 10px;
+    }
+    
+    button.accordion-button::after {
+        width: 30px;
+        height: 30px;
+    }
+    .accordion-body {
+        padding: 16px;
+        padding-top: 0;
+    }
+    .faq__title { 
+        margin-bottom: 40px;
+    }
+
 
 }
 
